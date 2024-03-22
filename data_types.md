@@ -1,4 +1,4 @@
-# Tipos de Dados JavaScript - Primitivos e Objeto.
+# Tipos de Dados JavaScript - Primitivos, Objeto e Array.
 
 ## Tipos Primitivos
 
@@ -43,7 +43,8 @@ Indica que uma variável não possui nenhum valor.
 const variavel = null;
 ```
 
-## Tipo de Variável - Objeto
+## Tipos de dados - Objeto e Array
+### Objeto
 Representa uma estrutura de dados mais complexa que pode conter diversos valores e métodos relacionados. É uma maneira de utilizar uma coleção de pares chave-valor, onde cada chave é única e possui um valor atribuído à ela.
 O objeto é declarado entre chaves { }.
 
@@ -56,3 +57,20 @@ const pessoa = {
     }
 }
 ```
+
+### Array
+Arrays são estruturas de dados que armazenam uma coleção de elementos. Também podem ser chamados de lista, por conter uma sequência de valores, de qualquer tipo (objeto, string, number...), dentro dela.
+
+O tipo Array pode ser definido utilizando colchetes [ ], onde os elementos irão dentro deles, e então são organizados de maneira sequencial, começando do 0:
+``` JavaScript
+const myArray = ['elemento01', 'elemento02'];
+myArray[0] // primeiro elemento;
+myArray[1] // segundo elemento...
+```
+
+Também podemos manipular o Array, alterando ou modificando seus dados:
+``` JavaScript
+myArray[2] = 'terceiro elemento';
+```
+
+Além de tudo isso, o array possui diversos métodos muito úteis, como push(), para adicionar um elemento, pop() para apagar o último elemento e diversos outros.
